@@ -37,4 +37,4 @@ No frameworks or external JS libraries — wanted to keep it simple and show I u
 
 ## Why I built this
 
-Made this as part of my placement prep — wanted something in my portfolio that's more than a copy-pasted tutorial, so I focused on fixing the broken parts of the original project (no working combat, duplicate IDs, typos in the logic) and then added real game feel on top.
+Made this as part of my practice but — wanted something in my portfolio that's more than a copy-pasted tutorial, so I focused on fixing the broken parts of the original project (no working combat, duplicate IDs, typos in the logic) and then added real game feel on top.
