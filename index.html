@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragon Repeller</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game">
+
+    <header id="title">
+        <h1>Dragon Repeller</h1>
+        <p id="subtitle">The town square whispers of a beast in the north cave.</p>
+    </header>
+
+    <div id="stats">
+        <div class="stat">
+            <span class="stat-label">Level <span id="levelText">1</span></span>
+            <div class="bar bar-xp"><div id="xpBar" class="bar-fill"></div></div>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Health <span id="healthText">100</span>/<span id="maxHealthText">100</span></span>
+            <div class="bar bar-health"><div id="healthBar" class="bar-fill"></div></div>
+        </div>
+        <div class="stat stat-gold">
+            <span class="stat-label">Gold</span>
+            <strong id="goldText">50</strong>
+        </div>
+    </div>
+
+    <main id="screen"></main>
+
+    <div id="log"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
